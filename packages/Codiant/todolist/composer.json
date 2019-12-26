@@ -1,0 +1,26 @@
+{
+    "name": "codiant/todolist",
+    "description": "todolist",
+    "authors": [
+        {
+            "name": "Jitesh Paliwal",
+            "email": "jiteshp@codiant.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravelcollective/html": "^5.5"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "codiant\\todolist\\TodolistServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Codiant\\Todolist\\": "src/"
+        }
+    }
+}
